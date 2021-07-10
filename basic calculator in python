@@ -1,0 +1,28 @@
+#python calculator
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def multi(a,b):
+    return a*b
+def divide(a,b):
+    return a/b
+
+print("Welcome to the Simple Calculator!")
+while True:
+    menu = input("a: add, s:substract, m:multiply, d: divide :")
+
+    if menu in ('a','s','m','d'):
+        n1 = float(input("Enter the first number:"))
+        n2 = float(input("Enter the second number:"))
+        if menu == 'a':
+            print(n1, "+", n2, "=", add(n1,n2))
+        if menu == 's':
+             print(n1, "-", n2, "=", substract(n1,n2))
+        if menu == 'm':
+             print(n1, "*", n2, "=", multiply(n1,n2))
+        if menu == 'd':
+             print(n1, "/", n2, "=", divide(n1,n2))
+
+    else:
+        print("Error : invalid choice ...enter correct numbers!")
