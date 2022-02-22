@@ -1,4 +1,4 @@
-#Day 41-42 of 100
+#Day 42-43 of 100
 #Python Project: Email Slicer, spearates domain name and server name of an email
 
 import tkinter as tk
@@ -32,7 +32,7 @@ def reset_all():
 
 
 # Labels in program
-greeting = tk.Label(text="Day 41-42 of 100: Email Slicer!", font=(12), foreground="white", background="grey")
+greeting = tk.Label(text="Day 42-43 of 100: Email Slicer!", font=(12), foreground="white", background="grey")
 Info = tk.Label(foreground="white", background="grey", font=(10),
                 text="Enter email id !\n The application will extract your username and domain name.")
 entry_label = tk.Label(foreground="white", font=(10), background="black", text="Enter Email Id: ")
